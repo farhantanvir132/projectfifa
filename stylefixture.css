@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.tmDiv {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.tmDiv p {
+	color: rgb(4, 4, 4);
+	padding: 18px 25px;
+
+}
+.ListGroup {
+	width: 100%;
+	height: 170px;
+	border: 1px solid rgb(3, 3, 3);
+	background: rgb(248, 234, 237);
+	position: relative;
+	padding-top: 25px;
+	border-radius: 15px;
+	padding-left: 30px;
+
+}
+
+
+.listLeft {
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	content: "";
+}
+
+
+.listLeft ul {
+	padding: 0;
+	margin-top: 0;
+	width: 100%;
+	position: relative;
+}
+
+.listLeft ul li {
+	list-style: none;
+	margin: 5px;
+	color: rgb(2, 2, 2);
+	height: 30px;
+	position: relative;
+}
+
+.listLeft ul li img {
+	width: 30px;
+}
+
+.listLeft ul li span {
+	position: absolute;
+	content: "";
+	left: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.TimeAndDate {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	width: 200px;
+	height: 130%;
+	border-left: 1px solid rgb(54, 54, 54);
+}
+
+.TimeAndDate p {
+	text-align: center;
+	color: rgb(2, 2, 2);
+	line-height: 28px;
+	padding-top: 30px;
+}
+
+.score {
+	width: 50%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+	padding-left: 298px;
+    padding-top: 38px;
+    box-sizing: border-box;
+    justify-self: right;
+    color: rgb(2, 2, 2);
+}
+
+
+.score2 {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	padding-left: 298px;
+    padding-top: 74px;
+	box-sizing: border-box;
+	justify-self: right;
+	color: rgb(2, 2, 2);
+} 
+
+.TimeAndDatenew {
+	position: absolute;
+	content: "";
+	right: 0;
+	top: 0;
+	width: 200px;
+	height: 130%;
+	border-left: 1px solid rgb(54, 54, 54);
+}
+
+.TimeAndDatenew p {
+	text-align: center;
+	color: rgb(2, 2, 2);
+	line-height: 28px;
+	padding-top: 30px;
+}
+
+.scorenew {
+	width: 50%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+	padding-left: 298px;
+    padding-top: 38px;
+    box-sizing: border-box;
+    justify-self: right;
+    color: rgb(2, 2, 2);
+}
+
+
+.score2new {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	padding-left: 300px;
+    padding-top: 76px;
+	box-sizing: border-box;
+	justify-self: right;
+	color: rgb(2, 2, 2);
+}
